@@ -14,7 +14,7 @@ ___
 ___
 
 ## One Last Note
-* Currently, I do not have an iPhone, so I'm unable to test the app on a real device. I apologize in advance for possible bugs.
+* Currently, I do not have an iPhone, so I'm unable to test the app on a real device. I apologize in advance for maybe possible bugs.
 
    Kind regards,
 
