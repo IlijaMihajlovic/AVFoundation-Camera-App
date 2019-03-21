@@ -13,7 +13,10 @@ ___
 ![alt text](https://github.com/IlijaMihajlovic/AVFoundation-Camera-/blob/master/AVFoundation%20Camera/Images/Iphone.png)
 ___
 
-* One last note. Currently I do not have an iPhone , so I'm not able to test the camera on a real device. I apologize in advance for possible bugs. 
+* One last note. Currently, I do not have an iPhone, so I'm unable to test the app on a real device. I apologize in advance for possible bugs.
+
+Kind regards,
+Ilija
 
 ## License
 ```
