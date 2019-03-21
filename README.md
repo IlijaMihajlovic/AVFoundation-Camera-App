@@ -15,8 +15,9 @@ ___
 
 * One last note. Currently, I do not have an iPhone, so I'm unable to test the app on a real device. I apologize in advance for possible bugs.
 
-Kind regards,
-Ilija
+   Kind regards,
+   Ilija
+___
 
 ## License
 ```
