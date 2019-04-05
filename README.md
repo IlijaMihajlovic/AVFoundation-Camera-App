@@ -13,7 +13,7 @@ ___
 ![alt text](https://github.com/IlijaMihajlovic/AVFoundation-Camera-/blob/master/AVFoundation%20Camera/Images/Iphone.png)
 ___
 
-## One Last Note
+## Side Note
 * Currently, I do not have an iPhone, so I'm unable to test the app on a real device. I apologize in advance for maybe possible bugs.
 
    Kind regards,
