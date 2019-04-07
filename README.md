@@ -1,8 +1,8 @@
 # AVFoundation Camera
 
-![platform-ios](https://img.shields.io/badge/platform-ios-orange.svg)
-![swift-version](https://img.shields.io/badge/swift-4.2-red.svg)
-![lisence](https://img.shields.io/badge/license-MIT-black.svg)
+![platform-ios](https://img.shields.io/badge/platform-ios-Blue.svg)
+![swift-version](https://img.shields.io/badge/swift-4.2-Orange.svg)
+![lisence](https://img.shields.io/badge/license-MIT-Lightgrey.svg)
 
 A camera app with a launch/splash screen with multiply functions each of which is a button, with added animation showing the strength and complexity of AVFoundation. This camera app can record video, take a picture,  switch cameras front and back also turn the flash on and off.
 ___
