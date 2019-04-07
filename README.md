@@ -33,8 +33,6 @@ ___
 ![alt text](https://github.com/IlijaMihajlovic/AVFoundation-Camera-/blob/master/AVFoundation%20Camera/Images/Iphone.png)
 ___
 
-
-
 ## License
 ```
 MIT License
