@@ -1,6 +1,26 @@
 # AVFoundation Camera
+
+![platform-ios](https://img.shields.io/badge/platform-ios-lightgrey.svg)
+![swift-version](https://img.shields.io/badge/swift-4.2-red.svg)
+![lisence](https://img.shields.io/badge/license-MIT-black.svg)
+
 A camera app with a launch/splash screen with multiply functions each of which is a button, with added animation showing the strength and complexity of AVFoundation. This camera app can record video, take a picture,  switch cameras front and back also turn the flash on and off.
 ___
+
+## Side Note
+* Currently, I do not have an iPhone, so I'm unable to test the app on a physical device. I apologize in advance for maybe possible bugs.
+
+   Kind regards,
+
+   Ilija 🖖 😄
+___
+
+
+## Requirements
+- Physical device! Because the simulator does not have a camera
+- Swift 4.2
+- Xcode 9.2+
+- iOS 11.0+
 
 ## Example how the UI looks
 
@@ -13,13 +33,7 @@ ___
 ![alt text](https://github.com/IlijaMihajlovic/AVFoundation-Camera-/blob/master/AVFoundation%20Camera/Images/Iphone.png)
 ___
 
-## Side Note
-* Currently, I do not have an iPhone, so I'm unable to test the app on a physical device. I apologize in advance for maybe possible bugs.
 
-   Kind regards,
-
-   Ilija 🖖 😄
-___
 
 ## License
 ```
