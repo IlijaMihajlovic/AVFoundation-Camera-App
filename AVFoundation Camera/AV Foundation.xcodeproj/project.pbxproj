@@ -7,24 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		240DFC44223FBCB10065D769 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240DFC43223FBCB10065D769 /* Enum.swift */; };
+		240DFC44223FBCB10065D769 /* CameraControllerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240DFC43223FBCB10065D769 /* CameraControllerError.swift */; };
 		246179A3223FCB45009FDA92 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246179A2223FCB45009FDA92 /* Extension.swift */; };
+		24C852502260E628006D20DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C8524E2260E628006D20DD /* Main.storyboard */; };
+		24C852582260EB87006D20DD /* CameraPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C852572260EB87006D20DD /* CameraPosition.swift */; };
 		AF7DD4D31ED3AA28005C880E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DD4D21ED3AA28005C880E /* AppDelegate.swift */; };
-		AF7DD4D51ED3AA28005C880E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DD4D41ED3AA28005C880E /* ViewController.swift */; };
-		AF7DD4D81ED3AA28005C880E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7DD4D61ED3AA28005C880E /* Main.storyboard */; };
+		AF7DD4D51ED3AA28005C880E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7DD4D41ED3AA28005C880E /* MainVC.swift */; };
 		AF7DD4DA1ED3AA28005C880E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF7DD4D91ED3AA28005C880E /* Assets.xcassets */; };
 		AF7DD4DD1ED3AA28005C880E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF7DD4DB1ED3AA28005C880E /* LaunchScreen.storyboard */; };
 		F4D077821EDC0A91001B0881 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D077811EDC0A91001B0881 /* CameraController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		240DFC43223FBCB10065D769 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		240DFC43223FBCB10065D769 /* CameraControllerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraControllerError.swift; sourceTree = "<group>"; };
 		246179A2223FCB45009FDA92 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		24C8524F2260E628006D20DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24C852572260EB87006D20DD /* CameraPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPosition.swift; sourceTree = "<group>"; };
 		AF7DD4CF1ED3AA28005C880E /* AV Foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AV Foundation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF7DD4D21ED3AA28005C880E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AF7DD4D41ED3AA28005C880E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "AV Foundation/ViewController.swift"; sourceTree = "<group>"; };
-		AF7DD4D71ED3AA28005C880E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF7DD4D91ED3AA28005C880E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "AV Foundation/Assets.xcassets"; sourceTree = "<group>"; };
+		AF7DD4D41ED3AA28005C880E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		AF7DD4D91ED3AA28005C880E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF7DD4DC1ED3AA28005C880E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF7DD4DE1ED3AA28005C880E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4D077811EDC0A91001B0881 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
@@ -41,15 +43,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AF7DD4C61ED3AA28005C880E = {
+		24C852512260E6ED006D20DD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				F4D077811EDC0A91001B0881 /* CameraController.swift */,
-				AF7DD4D41ED3AA28005C880E /* ViewController.swift */,
+				AF7DD4D41ED3AA28005C880E /* MainVC.swift */,
+				AF7DD4D21ED3AA28005C880E /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		24C852522260E6F5006D20DD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
 				246179A2223FCB45009FDA92 /* Extension.swift */,
-				240DFC43223FBCB10065D769 /* Enum.swift */,
-				AF7DD4D61ED3AA28005C880E /* Main.storyboard */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		24C852532260E718006D20DD /* Interface Builder */ = {
+			isa = PBXGroup;
+			children = (
+				24C8524E2260E628006D20DD /* Main.storyboard */,
+				AF7DD4DB1ED3AA28005C880E /* LaunchScreen.storyboard */,
+			);
+			path = "Interface Builder";
+			sourceTree = "<group>";
+		};
+		24C852542260E76E006D20DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				AF7DD4D91ED3AA28005C880E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		24C852552260E780006D20DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF7DD4DE1ED3AA28005C880E /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		24C852562260EAF9006D20DD /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				240DFC43223FBCB10065D769 /* CameraControllerError.swift */,
+				24C852572260EB87006D20DD /* CameraPosition.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		AF7DD4C61ED3AA28005C880E = {
+			isa = PBXGroup;
+			children = (
 				AF7DD4D11ED3AA28005C880E /* AV Foundation */,
 				AF7DD4D01ED3AA28005C880E /* Products */,
 			);
@@ -66,9 +114,12 @@
 		AF7DD4D11ED3AA28005C880E /* AV Foundation */ = {
 			isa = PBXGroup;
 			children = (
-				AF7DD4D21ED3AA28005C880E /* AppDelegate.swift */,
-				AF7DD4DB1ED3AA28005C880E /* LaunchScreen.storyboard */,
-				AF7DD4DE1ED3AA28005C880E /* Info.plist */,
+				24C852512260E6ED006D20DD /* Controller */,
+				24C852562260EAF9006D20DD /* Enum */,
+				24C852522260E6F5006D20DD /* Extension */,
+				24C852532260E718006D20DD /* Interface Builder */,
+				24C852552260E780006D20DD /* Supporting Files */,
+				24C852542260E76E006D20DD /* Resources */,
 			);
 			path = "AV Foundation";
 			sourceTree = "<group>";
@@ -100,12 +151,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Pranjal Satija";
 				TargetAttributes = {
 					AF7DD4CE1ED3AA28005C880E = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = YZP52RND5S;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
@@ -113,10 +163,9 @@
 			};
 			buildConfigurationList = AF7DD4CA1ED3AA28005C880E /* Build configuration list for PBXProject "AV Foundation" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -135,9 +184,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C852502260E628006D20DD /* Main.storyboard in Resources */,
 				AF7DD4DD1ED3AA28005C880E /* LaunchScreen.storyboard in Resources */,
 				AF7DD4DA1ED3AA28005C880E /* Assets.xcassets in Resources */,
-				AF7DD4D81ED3AA28005C880E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +198,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				246179A3223FCB45009FDA92 /* Extension.swift in Sources */,
+				24C852582260EB87006D20DD /* CameraPosition.swift in Sources */,
 				F4D077821EDC0A91001B0881 /* CameraController.swift in Sources */,
-				AF7DD4D51ED3AA28005C880E /* ViewController.swift in Sources */,
-				240DFC44223FBCB10065D769 /* Enum.swift in Sources */,
+				AF7DD4D51ED3AA28005C880E /* MainVC.swift in Sources */,
+				240DFC44223FBCB10065D769 /* CameraControllerError.swift in Sources */,
 				AF7DD4D31ED3AA28005C880E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,13 +209,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF7DD4D61ED3AA28005C880E /* Main.storyboard */ = {
+		24C8524E2260E628006D20DD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AF7DD4D71ED3AA28005C880E /* Base */,
+				24C8524F2260E628006D20DD /* Base */,
 			);
 			name = Main.storyboard;
-			path = "AV Foundation";
 			sourceTree = "<group>";
 		};
 		AF7DD4DB1ED3AA28005C880E /* LaunchScreen.storyboard */ = {
@@ -292,8 +341,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YZP52RND5S;
-				INFOPLIST_FILE = "AV Foundation/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/AV Foundation/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.avfoundationdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -306,8 +355,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = YZP52RND5S;
-				INFOPLIST_FILE = "AV Foundation/Info.plist";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/AV Foundation/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.avfoundationdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
