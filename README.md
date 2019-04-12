@@ -39,6 +39,7 @@ ___
 * On the right side we have the main screen when the app loads the with buttons laid out such as: Record video, take a picture,  switch cameras front and back also turn the flash on and off.
 
 ![alt text](https://github.com/IlijaMihajlovic/AVFoundation-Camera-/blob/master/AVFoundation%20Camera/Images/Iphone.png)
+
 ___
 
 ## License
