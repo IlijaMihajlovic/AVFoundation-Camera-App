@@ -17,7 +17,7 @@ ___
 
 
 ## Requirements
-- Physical device! Because the simulator does not have a camera
+- Physical device! Because the simulator does not have a camera.
 - Swift 4.2
 - Xcode 9.2+
 - iOS 11.0+
