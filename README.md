@@ -4,7 +4,7 @@
 ![swift-version](https://img.shields.io/badge/swift-4.2-Orange.svg)
 ![lisence](https://img.shields.io/badge/license-MIT-Lightgrey.svg)
 
-A camera app with a launch/splash screen with multiple functions each of which is a button, with added animation showing the strength and complexity of AVFoundation. This camera app can record videos, take pictures, switch cameras front and back also turn the flash on and off.
+A camera app with a launch/splash screen and multiple functions each of which is a button, with added animation showing the strength and complexity of AVFoundation. This camera app can record videos, take pictures, switch cameras front and back also turn the flash on and off.
 ___
 
 ## Side Note
