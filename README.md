@@ -30,7 +30,7 @@ ___
 
 ## Example how the UI looks
 
-* This is launch/splash screen of the app. 🚀
+* This is the launch/splash screen of the app. 🚀
 
 ![alt text](https://github.com/IlijaMihajlovic/AVFoundation-Camera-/blob/master/AVFoundation%20Camera/Images/Freebie.png)
 
